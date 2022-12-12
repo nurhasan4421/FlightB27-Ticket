@@ -1,3 +1,8 @@
+#content-area{
+    display: none;
+}
+
+
 *{ 
     padding: 0;
     margin: 0;
@@ -7,7 +12,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/ship.png");
+    background:url("courseon-resources/Photos/a8.jpg");
     background-repeat: no-repeat;
     background-position: fixed;
     background-attachment: scroll;
@@ -45,7 +50,7 @@ nav ul li a:hover, a.active{
     align-items: center;
 }
 .booking-content{
-    color: #fff;
+    color: rgb(0, 0, 0);
     width: 100%;
     float: left;
     margin-left: 50px;
@@ -138,7 +143,7 @@ nav ul li a:hover, a.active{
 
 
 .message {
-    background: rgba(133, 133, 133, 0.494);
+    background: rgba(38, 133, 196, 0.315);
     border-radius: 6px;
     /* box-shadow: 10px 10px 15px gray; */
     text-align:center;
@@ -159,5 +164,44 @@ nav ul li a:hover, a.active{
 
 #confarmation-message > h4 {
     padding: 20px;
+}
+
+
+#content-area{
+    display: none;
+}
+
+.logo img{
+    height: 40px;
+    width: 250px;
+    position: relative;
+    left: 80px;
+}
+.removing-border{
+    border: 0;
+}
+
+.shopping-cart img{
+    height: 20px;
+    width: 20px;
+}
+.removing-footer{
+    border: 0;
+    background-color: white;
+
+}
+.footer-imgages img{
+    height: 100px;
+    width: 100px;
+    
+}
+.rm-r img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 50px;
+}
+.footer-radius{
+    border-radius:20px;
 }
 

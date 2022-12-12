@@ -1,3 +1,23 @@
+// LOGIN BUTTON EVENT HANDLER
+const loginButton = document.getElementById("login");
+loginButton.addEventListener("click", function(){
+    const loginArea = document.getElementById("login-area");
+    loginArea.style.display = "none";
+    const transactionArea = document.getElementById("content-area");
+    const emailInfo = document.getElementById("email").value;
+    const passwordInfo = document.getElementById("password").value;
+    if(emailInfo == "" && passwordInfo == ""){
+        transactionArea.style.display = "block";
+        alert("Login Successful")
+        
+    }
+    else{
+        alert("You have entered wrong password")
+        loginArea.style.display = "block";
+    }
+})
+
+
 const firstClassTicketIncrease = document.getElementById(
     "firstClass-ticket-increase"
   );
@@ -43,7 +63,7 @@ const firstClassTicketIncrease = document.getElementById(
       document.body.style.backgroundImage = "none";
       document.body.style.background = "#FFFFFF";
       const h4 = document.createElement("h4");
-      h4.innerText = `You booked ${firstClassTicket} first Class and ${economyTicket} economy class tickets`;
+      h4.innerText = `You have booked ${firstClassTicket} first Class and ${economyTicket} economy class tickets`;
       messageBox.appendChild(h4);
     }
   });
