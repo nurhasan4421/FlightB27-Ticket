@@ -6,7 +6,7 @@ loginButton.addEventListener("click", function(){
     const transactionArea = document.getElementById("content-area");
     const emailInfo = document.getElementById("email").value;
     const passwordInfo = document.getElementById("password").value;
-    if(emailInfo == "" && passwordInfo == ""){
+    if(emailInfo == "boeingb27@gmail.com" && passwordInfo == "boeing"){
         transactionArea.style.display = "block";
         alert("Login Successful")
         
